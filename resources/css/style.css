@@ -78,6 +78,10 @@ nav li {
   justify-content: flex-end;
   height: auto;
 }
+nav li:hover {
+  cursor: pointer;
+  color: #9ea7a6;
+}
 .border-line {
   border-right: 16px solid #72b9c0;
 }
@@ -160,6 +164,10 @@ nav li {
   align-self: baseline;
   margin-left: 1.33rem;
   cursor: pointer;
+  border: none;
+}
+.description button:hover {
+  background-color: #72b9c0;
 }
 .main-image.content p {
   display: block;
